@@ -1,5 +1,5 @@
 import java.util.Scanner;
-teste committ
+
 public class Questao {
     String pergunta = "";
     String opcaoA = "";
