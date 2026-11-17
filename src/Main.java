@@ -8,7 +8,7 @@ public class Main {
         System.out.println("==================================================");
         System.out.println("            SISTEMA DE QUIZ - ACADEMIA & NUTRIÇÃO ");
         System.out.println("==================================================");
-        System.out.println(" Aluno: Estudante de Ciência da Computação        ");
+        System.out.println(" Aluno: Thalita Aoli                              ");
         System.out.println(" Professor: Brenno Pimenta da Costa               ");
         System.out.println(" Tema: Musculação, Treino e Nutrição Esportiva    ");
         System.out.println("==================================================\n");
@@ -179,7 +179,6 @@ public class Main {
 
             String resposta = scanner.nextLine().trim();
 
-            // Utilizando o método isCorreta da classe Questao do professor
             if (questoes[i].isCorreta(resposta)) {
                 acertos++;
             }
